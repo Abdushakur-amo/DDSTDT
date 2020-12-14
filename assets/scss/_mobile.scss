@@ -1,0 +1,47 @@
+/* Менюи телефони - телефон бараки - телефон*/
+@media (min-width: 320px) {
+  .codrops-header h1 { font-size: 1.7em; }
+  .my_show {   width: 95%;}
+}
+@media (min-width: 576px) {
+  html, body{
+      overflow-x: hidden;
+  }
+
+  .content { max-width: 540px; }
+  div.content h1 {font-size: 25px;}
+  .JSmy_container {margin-left: 48px;padding: 5px;}
+  .left_active{display: none;}
+  .codrops-top {justify-content: space-evenly;}
+  .outer-nav.right{left:1%;}
+  .effect-airbnb.animate .container { transform: translateZ(-1188px) translateX(47%) rotateY(-47deg);box-shadow: 0px 0px 25px 1px #fff;}
+  input#search {width: 180px;}
+  .my_show {   width: 95%;}
+
+}
+/* не знаю */
+@media (min-width: 768px) {
+  .content { max-width: 720px; }
+  .codrops-top {justify-content: space-between;padding-left: 10px;  padding-right: 10px;}
+  input#search {width: 250px;}
+  .my_show {   width: 60%;}
+
+}
+
+/* Новбук - Нетбук - Планшет бараки */
+@media (min-width: 992px) {
+  .content { max-width: 960px; }
+  .codrops-top {justify-content: space-between;}
+
+}
+
+/* Экрани калон */
+@media (min-width: 1200px) {
+  .content { max-width: 1140px; margin: auto;}
+  .codrops-top {
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+}

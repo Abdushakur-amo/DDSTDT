@@ -1,0 +1,246 @@
+@import '_demo.scss';
+@import '_component.scss';
+*{
+	margin: 0;
+	padding: 0;
+}
+div.container {
+	max-width: 100%;
+	padding: 0;
+}
+input{
+    outline: none;
+}
+ul{
+    transition: .20s ease-in-out;
+}
+h1, p, a, span{
+    color: #ddd;
+		outline: none;
+}
+a:focus {
+    outline:none;
+}
+a:active, a:hover {
+    outline: none;
+		text-decoration: none;
+		color: #fff
+}
+.btn {margin-bottom: 5px;}
+button {
+    padding: 10px;
+    background: no-repeat;
+    color: #fff;
+    border: solid 1px #333;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.box_info{
+    background: #212529ba;
+    border: solid 4px #21252933;
+    overflow: auto;
+    max-height: 400px;
+    min-height: auto;
+}
+th a img {
+    width: 40px;
+}
+textarea {
+    min-width: 320px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    height: 100px;
+}
+button.btn-shakur {
+    font-size: 14px;
+    border-radius: 5px;
+    background: #007bff;
+    font-weight: 700;
+    color: white;
+    transition: .30s all;
+    border: none;
+		margin: 0;
+		margin-top: 10px;
+}
+input#search {
+		color: #007bff;
+	    font-weight: bolder;
+	    font-family: calibri;
+	    padding: 8px;
+	    border: solid 1px #333;
+	    background: no-repeat;
+	    border-radius: 3px;
+        font-size: 14px;
+        width: 180px;
+}
+
+html, body{
+	margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+main#php_main {
+    display: flex;
+    height: 100%;
+}
+section#php_section{
+	/*border: solid 1px #f00;*/
+    height: 100%;
+    width: 100%;
+}
+.content { margin: auto;padding-left: 5px; padding-right: 5px;} 
+.top_active {
+    background: #212529;
+    width: 100%;
+    height: 50px;
+    /* height: 0px; */
+    /* width: 0%; */
+    display: flex;
+    transition: width, 0.30s ease-in-out;
+}
+
+.top_active h5 {
+    width: 300px;
+    text-align: center;
+    padding-top: 15px;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 50px;
+    margin-right: 15px;
+}
+.top_active ul {
+    display: flex;
+    font-size: 19px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    width: 180px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+
+}
+.gamburg {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	justify-content: flex-end;
+}
+li {
+    list-style: none;
+}
+.gamburg p {
+    color: #007bff;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+.left_active {
+    width: 300px;
+    /* width: 0; */
+    background: #212529;
+    height: 100%;
+    transition: .50s ease-in-out;
+    overflow: hidden;
+		display: none;
+}
+
+
+/* /e801  e802*/
+.top_active.addTop_active .gamburg_b {
+    background: #212529;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:height 0.1s ease-in-out;
+    transition:background 0.50s ease-in-out;
+}
+
+
+
+.my_container{
+    /*sbackground: #f8f9fa;*/
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    position: relative;
+}
+.filter_fon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: brightness(0.3);
+    background: url(/assets/img/fon.jpg);
+    background-position: top center;
+    background-size: cover;
+    z-index: -1;
+    transition: .25s ease-in-out;
+}
+.left_active ul li a {
+    background: #212529;
+    display: block;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+}
+.left_active ul li a:hover{
+	text-decoration: none;
+	background: #f8f9fa;
+}
+.left_active ul {
+    margin-left: 10px;
+}
+ul.box_ul_search {
+    padding-top: 20px;
+    margin-top: 15px;
+    border-top: solid 1px #666;
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    border-top: 1px #666 solid;
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+//Modal
+.my_show {background: #dee2e6;padding: 10px;width: 60%;height: 50%;border-radius: 5px;box-shadow: 0 0 5px #000;position: relative;}
+.my_show a{color: black;}
+.my_modal{cursor: pointer;}
+.container_show {position: absolute;background: #000000a6;left: 0;top: 0;display: flex;justify-content: center;align-items: center;opacity: 0;z-index: -5; transform: scale3d(2.5, 2.5, 1.5);transition: .70s all;width: 100%;height: auto;}
+span.my_modal { cursor: pointer; color: black; font-size: 20px; position: absolute; right: 0;}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>> JS
+.addTop_active ul {display: none;}
+.JSAddLeft_active {width: 0px;}
+.addTop_active{  height: 0;width: 0%;}
+.JSmy_container{margin-left: 48px;}
+.gamburgTJ{color: #007bff;transform: rotate(180deg);position: absolute;transition: .40s;}
+.container_showJS{
+    z-index: 100; 
+    opacity: 9; 
+    transform: none; 
+    height: 100vh;
+    
+    
+}
+
+@import '_mobile.scss';

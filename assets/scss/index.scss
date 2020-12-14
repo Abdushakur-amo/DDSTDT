@@ -1,0 +1,88 @@
+html {
+    /* border: solid brown; */
+    background: url(/assets/img/fon.jpg)no-repeat center center;
+    background-size: cover;
+    color: aliceblue;
+    background-color: black;
+
+  }
+
+  body {
+    /* border: solid black; */
+    font-family:calibri;
+    background: none;
+  }
+
+
+  .head_top {
+    width: 100%;
+    /* border: solid 1px #666; */
+
+    /* overflow: hidden; */
+  }
+  .content {
+    width: 100%;
+        padding-top: 50px;
+  
+
+
+  }
+  .footer {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  .content > p {
+    /* border: solid aliceblue; */
+    text-align: center;
+    color: aliceblue;
+    background:none;
+    margin-bottom: 55px;
+  }
+  .content > h1 {
+    /* border: solid; */
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+  }
+  .head_top > span{
+    float: right;
+    margin: 20px 20px 0px 0px;
+  }
+  .head_top > span a img{
+    width: 35px;
+    height: 35px;
+  }
+      .head_top > a {
+        color: #666;
+    text-decoration: none;
+    float: left;
+    margin: 20px 10px 10px 10px;
+  }
+  /*
+  ->->->->->->->->->->->->->->->->
+  ->->          form          ->->
+  ->->->->->->->->->->->->->->->->
+  */
+
+	.form_css {width: 270px;background-color: white;border-radius: 5px;/* box-shadow: 1px 1px 3px #000; */padding: 10px;height: 340px;opacity: 0.9;color:#666;padding-top: 60px;}
+	.image_reg {width: 17px;height: 14px;margin-right: 5px;padding-left: 3px;}
+	.form_css .form p {margin: 0;}
+	.form_css .form p input[type=checkbox] {width: 20px;margin-top: 5px;}
+	.form_css > .form:before {opacity: 9; content: "";width: 100px;height: 100px;background: url(/assets/img/people.gif)no-repeat;position: absolute;border-radius: 50%;margin: -110px 0px 0px 80px;background-size: 102px;}
+  .form { height: 100%;}
+  ul.form2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+ul.form2 li {
+  width: 100%;
+  text-align: center;
+}
+ul.form2 li a {
+  color: #dc3545;
+}

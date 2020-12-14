@@ -1,0 +1,4 @@
+RewriteEngine on
+AddDefaultCharset utf-8
+RewriteCond %{REQUEST_URI}(.*) !^/assets/
+RewriteRule .* index.php [L]
